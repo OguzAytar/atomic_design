@@ -14,7 +14,7 @@ class CardRowColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-      color: const Color.fromARGB(255, 149, 130, 255),
+      color: const Color.fromARGB(255, 110, 97, 184),
       child: CardRow(child: CardColumn(child: child)),
     );
   }

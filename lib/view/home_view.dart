@@ -20,6 +20,7 @@ class HomeView extends StatelessWidget {
             // ),
             Expanded(
                 child: GridView.builder(
+              itemCount: 10,
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3, mainAxisSpacing: 20, crossAxisSpacing: 10),
               itemBuilder: (context, index) {
